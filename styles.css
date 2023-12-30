@@ -1,0 +1,11 @@
+body {
+    background: url('https://source.unsplash.com/green-trees-on-mountain-under-cloudy-sky-during-daytime-kcvlb727mn8') center/cover no-repeat;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
