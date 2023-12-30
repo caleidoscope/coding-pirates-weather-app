@@ -1,10 +1,12 @@
 body {
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     background: url('https://source.unsplash.com/green-trees-on-mountain-under-cloudy-sky-during-daytime-kcvlb727mn8') center/cover no-repeat;
 }
 
 .container {
     width: 60%;
+ 
 }
 
 #weatherInfo {
