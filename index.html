@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    
 </head>
 <body>
     <div class="container">
@@ -24,11 +25,11 @@
                 <div class="card">
                     <div class="card-content">            
                       <div class="content">
-                        <h1 id="name" class="has-text-centered">Berlin</h1>
-                        <p class="weather-code">clouded</p> 
-                        <p class="temp">temperature: 6.1&deg;</p> 
-                        <p class="feels-like-temp">Feels like: 0.6&deg;</p> 
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        <h1 id="city-name" class="has-text-centered">Berlin</h1>
+                        <p id="weather-code">clouded</p>
+                        <p>temperature: <span id="current-temp">6.1</span>&deg;</p> 
+                        <p>feels like: <span id="feels-like-temp">0.6</span>&deg;</p> 
+                        <p id="current-time">12:45</p> 
                       </div>
                     </div>
                   </div>
@@ -38,5 +39,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
 </body>
 </html>
